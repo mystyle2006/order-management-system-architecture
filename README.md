@@ -13,3 +13,5 @@ At Gomi Corporation, as a commerce platform, there was a requirement to integrat
 **Northeast Shopping Platform**: Based on webhooks provided by Southeast Asian shopping platforms, order events are delivered to our internal servers.
 
 **API Gateawy**: To prevent Lambda overload during webhook event spikes, we implemented traffic control to regulate the delivery rate. Additionally, by attaching ACM certificates, we automated HTTPS and TLS management, maximizing production efficiency.
+
+**Lambda**: Since Lambda automatically scales concurrent executions as requests increase, it can easily handle traffic spikes and offers cost advantages. In particular, its seamless integration with other AWS services such as API Gateway, SNS, and SQS makes it highly efficient for operations

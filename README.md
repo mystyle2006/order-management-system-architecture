@@ -10,7 +10,7 @@ At Gomi Corporation, as a commerce platform, there was a requirement to integrat
 
 ![OMS Bluescreen ](./OMS.drawio.png)
 
-**Northeast Shopping Platform**: Based on webhooks provided by Southeast Asian shopping platforms, order events are delivered to our internal servers.
+**Southeast Shopping Platform**: Based on webhooks provided by Southeast Asian shopping platforms, order events are delivered to our internal servers.
 
 **API Gateawy**: To prevent Lambda overload during webhook event spikes, we implemented traffic control to regulate the delivery rate. Additionally, by attaching ACM certificates, we automated HTTPS and TLS management, maximizing production efficiency.
 

@@ -20,4 +20,4 @@ At Gomi Corporation, as a commerce platform, there was a requirement to integrat
 
 **SNS**: Implemented a Pub/Sub architecture using SNS topics to publish order events, allowing multiple subscriber services to consume events independently, enhancing system scalability and event processing flexibility
 
-**SQS**: Implemented SQS FIFO queues to meet sequential processing requirements for order events, grouping messages by MessageGroupId = shopId:orderId to ensure order-level sequencing while processing different order groups in parallel, optimizing throughput and response times.
+**SQS**: Implemented SQS FIFO queues to meet sequential processing requirements for order events, grouping messages by `MessageGroupId = shopId:orderId` to ensure order-level sequencing while processing different order groups in parallel, optimizing throughput and response times.

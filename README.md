@@ -8,7 +8,7 @@ At Gomi Corporation, as a commerce platform, there was a requirement to integrat
 
 # Details
 
-![OMS Bluescreen](./OMS.drawio.png)
+![OMS Bluescreen ](./OMS.drawio.png)
 
 **Northeast Shopping Platform**: Based on webhooks provided by Southeast Asian shopping platforms, order events are delivered to our internal servers.
 

@@ -7,3 +7,4 @@ We selected an asynchronous architecture for the following reasons:
 - Processing orders immediately would complicate retries and fault recovery.
 
 # Details
+![OMS Bluescreen](./OMS.drawio.png)
